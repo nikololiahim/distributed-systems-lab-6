@@ -1,2 +1,22 @@
-# distributed-systems-lab-6
-Source code for my server-client file transferring Python scripts, created as a part of Distributed Systems Lab 6 at Innopolis University, 2020
+# Distributed Systems Lab 6
+# Innopolis University
+# Fall 2020
+
+Source code for my server-client file transferring Python scripts.
+
+# Code Structure
+Server part is located in `server.py`, client part is in `client.py`. `client.py` is meant to be run from the console with the following structure:
+```
+python3 client.py <FILENAME> <HOST_ADDRESS> <PORT>
+```
+
+# Running the code
+Before running any of the scripts, run 
+
+```
+pip install -r requirements.txt
+```
+
+to install the necessary dependencies.
+
+
